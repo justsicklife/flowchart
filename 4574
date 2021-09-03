@@ -1,23 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2021-09-02T22:36:35.522Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="ZKLQsrvb7EFOAIhA0Zz9" version="15.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-03T04:59:11.375Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="DLz4JjSZ5SrLRTXEAUCP" version="15.0.6" type="github">
   <diagram id="pjbqsqnCOsVWmkEUfVlv" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="o_rjKZS1GlEPRR1alFle-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o_rjKZS1GlEPRR1alFle-1" target="o_rjKZS1GlEPRR1alFle-3">
+        <mxCell id="p7CwpxjV6CT4narq5Col-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p7CwpxjV6CT4narq5Col-1" target="p7CwpxjV6CT4narq5Col-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="o_rjKZS1GlEPRR1alFle-1" value="(81 - 10 - (2 * N)) / 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="329" y="190" width="170" height="80" as="geometry" />
+        <mxCell id="p7CwpxjV6CT4narq5Col-1" value="좌표를 순차적으로 돈다" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="343" y="270" width="140" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="o_rjKZS1GlEPRR1alFle-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o_rjKZS1GlEPRR1alFle-3" target="o_rjKZS1GlEPRR1alFle-5">
+        <mxCell id="p7CwpxjV6CT4narq5Col-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p7CwpxjV6CT4narq5Col-2" target="p7CwpxjV6CT4narq5Col-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="o_rjKZS1GlEPRR1alFle-3" value="상하좌우 확인" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="329" y="350" width="170" height="80" as="geometry" />
+        <mxCell id="p7CwpxjV6CT4narq5Col-2" value="비어있는 좌표가있다면&amp;nbsp;&lt;br&gt;그좌표 안에 들어갈수 있는 숫자를 구한다" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="390" width="296" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="o_rjKZS1GlEPRR1alFle-5" value="2칸 확인" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="329" y="510" width="170" height="80" as="geometry" />
+        <mxCell id="p7CwpxjV6CT4narq5Col-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p7CwpxjV6CT4narq5Col-4" target="p7CwpxjV6CT4narq5Col-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p7CwpxjV6CT4narq5Col-4" value="그리고 현쟈좌표에 상하좌우를 살피고 비어있다면 거기서도 들어갈수있는 숫자를 구한다." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="510" width="246" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p7CwpxjV6CT4narq5Col-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p7CwpxjV6CT4narq5Col-6" target="p7CwpxjV6CT4narq5Col-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p7CwpxjV6CT4narq5Col-6" value="각각들어갈수있는 숫자를 넣는다." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="640" width="246" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p7CwpxjV6CT4narq5Col-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p7CwpxjV6CT4narq5Col-8" target="p7CwpxjV6CT4narq5Col-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p7CwpxjV6CT4narq5Col-8" value="방문체크 ? 2차원 배열" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="770" width="246" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p7CwpxjV6CT4narq5Col-11" value="보드가 꽉찰때까지" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="910" width="185.5" height="135" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
